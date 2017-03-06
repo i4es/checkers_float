@@ -1,0 +1,112 @@
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-box-sizing: border-box; 
+}
+.clearfix:before,
+.clearfix:before {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	clear: both;
+	*zoom: 1;
+}
+.field {
+	width: 830px;
+	height: 830px;
+	border: 15px solid;
+	border-color: brown;
+	background-color: #FFF;
+	margin: 0 auto;
+}
+.line1 {
+	display: block;
+	width: 800px;
+	height: 100px;
+	margin: 0 auto;
+}
+.box-line1 {
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+.box-line1:nth-child(even) {
+	background-color: black;
+}
+.box-line2 {
+	float: left;
+	width: 100px;
+	height: 100px;
+	background-color: black;
+}
+.box-line2:nth-child(even) {
+	background-color: white;
+}
+.box-line3 {
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+.box-line3:nth-child(even) {
+	background-color: black;
+}
+.box-line4 {
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+.box-line4:nth-child(odd) {
+	background-color: black;
+}
+.box-line5 {
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+.box-line5:nth-child(even) {
+	background-color: black;
+}
+.box-line6 {
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+.box-line6:nth-child(odd) {
+	background-color: black;
+}
+.box-line7 {
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+.box-line7:nth-child(even) {
+	background-color: black;
+}
+.box-line8 {
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+.box-line8:nth-child(odd) {
+	background-color: black;
+}
+.chess-1{
+	width: 80px;
+	height: 80px;
+	margin: 10px 10px;
+	border-radius: 50%;
+	background-color: white;
+}
+.chess-2 {
+	width: 80px;
+	height: 80px;
+	margin: 10px 10px;
+	border-radius: 50%;
+	background-color: grey;
+}
